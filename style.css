@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    color: #333;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .cadastro form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .cadastro input, .cadastro button {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .cadastro button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .empresas ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .empresas li {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-left: 5px solid #007bff;
+  }
+  
+  footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+
+  .motivacional {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #007bff; /* mesmo tom do cabeçalho e botões */
+  background-color: #f5faff; /* um azul bem claro para destacar sutilmente */
+  padding: 1rem 1.5rem;
+  margin: 2rem auto;
+  border-left: 4px solid #007bff;
+  border-radius: 4px;
+  max-width: 700px;
+  font-style: italic;
+}
+
